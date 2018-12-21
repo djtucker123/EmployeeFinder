@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 //Port to run app on (and declare listener)
-const PORT = process.env.PORT || 8000;
+var PORT = process.env.PORT || 8000;
 
 
 app.use(express.urlencoded({ extended: true }));
